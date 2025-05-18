@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Tripadvisor: Over</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <i class="fa-solid fa-bars"></i>
+      <img class="navbar__user" src="./assets/logo_1.svg" alt="Logo_one" />
+      <i class="fa-regular fa-circle-user fa-xl"></i>
+    </div>
+    <!-- Navbar-desktop -->
+    <div class="navbar__large">
+      <div class="navbar__left">
+        <img class="navbar__logo" src="./assets/logo_1.svg" alt="Logo" />
+      </div>
+
+      <ul class="navbar__center">
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Trips</a></li>
+        <li><a href="#">Review</a></li>
+        <li><a href="#">Forums</a></li>
+      </ul>
+
+      <div class="navbar__right">
+        <i class="fa-solid fa-globe"></i>|
+        <span class="currency">INR</span>
+        <button class="signin-button">Sign In</button>
+      </div>
+    </div>
+
+    <main class="container">
+      <div class="main__title">
+        <h1>Where to?</h1>
+      </div>
+      <!-- Categories -->
+      <div class="categories">
+        <button><i class="fa-solid fa-map"></i> Search All</button>
+        <button><i class="fa-solid fa-bed"></i> Hotels</button>
+        <button><i class="fa-solid fa-camera"></i> Things to do</button>
+        <button><i class="fa-solid fa-utensils"></i> Restaurant</button>
+        <button><i class="fa-solid fa-plane"></i> Flights</button>
+        <button><i class="fa-solid fa-house-user"></i> Holiday Homes</button>
+      </div>
+      <!-- Search -->
+      <div class="search">
+        <div class="search__field">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input
+            type="text"
+            placeholder="Places to go, things to do, hotels..."
+          />
+          <button class="search__large">Search</button>
+        </div>
+        <button class="search__small">Search</button>
+      </div>
+      <!-- Hotel Poster -->
+      <div class="hotel__poster">
+        <img src="./assets/hotel_one.jpg" alt="hotel_one" />
+        <h1 class="hotel__poster__title">World’s best hotels—chosen by you</h1>
+        <p class="hotel__poster__desc">
+          From beachside resorts to the most unique stays. See the top 1% of
+          hotels from Travellers’ Choice Best of the Best and save your faves.
+        </p>
+        <button class="hotel__poster__button">Reveal Winners</button>
+      </div>
+      <!-- Section one - World's top hotel -->
+      <div class="section__one">
+        <h2>Stay at the world's top hotels</h2>
+        <span>2025’s Travellers’ Choice Awards Best of the Best Hotels</span>
+        <div class="section__one__carousel">
+          <img src="./assets/carousel-1__one.jpg" alt="img_1" />
+          <img src="./assets/carousel-1__two.jpg" alt="img_2" />
+          <img src="./assets/carousel-1__three.jpg" alt="img_3" />
+          <img src="./assets/carousel-1__four.jpg" alt="img_4" />
+          <img src="./assets/carousel-1__five.jpg" alt="img_5" />
+        </div>
+      </div>
+      <!-- Section two - Ways to tour  -->
+      <div class="section__two">
+        <h2>Ways to tour Tiruchirappalli</h2>
+        <span
+          >Book these experiences for a close-up look at Tiruchirappalli.</span
+        >
+        <div class="section__two__carousel">
+          <div style="position: relative">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-4__one.jpg" alt="img_1" />
+            <h4>Private Day Tour from Trichy to Tanjore and Kumbakonam</h4>
+            <span>5.0 </span>
+            <span class="rating">●●●●●</span>
+            <span>(1)</span>
+            <h5>from ₹6,863 per adult</h5>
+          </div>
+          <div style="position: relative">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-4__two.jpg" alt="img_2" />
+            <h4>Heritage Trail: Thanjore from Trichy</h4>
+            <span>4.0 </span>
+            <span class="rating">●●●●○</span>
+            <span>(88)</span>
+            <h5>from ₹8,768 per adult</h5>
+          </div>
+          <div style="position: relative">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-4__three.jpg" alt="img_3" />
+            <h4>One-Day Tour from Madurai to Trichy</h4>
+            <span>3.0 </span>
+            <span class="rating">●●●○○</span>
+            <span>(55)</span>
+            <h5>from ₹16,173 per adult</h5>
+          </div>
+          <div style="position: relative">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-4__four.jpg" alt="img_4" />
+            <h4>Ancient Wonders: Trichy's Rich Heritage tour from Madurai</h4>
+            <span>4.0 </span>
+            <span class="rating">●●●●○</span>
+            <span>(75)</span>
+            <h5>from ₹6,839 per adult</h5>
+          </div>
+          <div style="position: relative">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-4__five.jpg" alt="img_5" />
+            <h4>Hill of Enlightment: Trichy to Thiruvannamalai</h4>
+            <span>4.0 </span>
+            <span class="rating">●●●●○</span>
+            <span>(65)</span>
+            <h5>from ₹5875 per adult</h5>
+          </div>
+        </div>
+      </div>
+      <!-- Section three - More to explore -->
+      <div class="section__three">
+        <h2>More to explore</h2>
+        <div class="section__three__carousel">
+          <div style="position: relative; text-align: center">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-2__one.jpg" alt="" />
+            <p>
+              7 Bangkok hotels that highlight Thailand's spectacular
+              architecture
+            </p>
+          </div>
+          <div style="position: relative; text-align: center">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-2__two.jpg" alt="" />
+            <p>3 days in Tokyo: The perfect itinerary</p>
+          </div>
+          <div style="position: relative; text-align: center">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-2__three.jpg" alt="" />
+            <p>Where Bali's best chefs go on their days off</p>
+          </div>
+          <div style="position: relative; text-align: center">
+            <i
+              class="fa-regular fa-heart"
+              style="
+                position: absolute;
+                right: 0;
+                top: 10px;
+                right: 10px;
+                padding: 10px;
+                font-size: 20px;
+                background-color: white;
+                border-radius: 100%;
+                z-index: 1;
+              "
+            ></i>
+            <img src="./assets/carousel-2__five.jpg" alt="" />
+            <p>12 places to dive-in stay - Tokyo: The perfect itinerary</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Section four - Dream your next trip -->
+      <div class="section__four">
+        <h2>Dream Your Next Trip</h2>
+        <p>Weekend getaways from Tiruchirappalli</p>
+        <div class="section__four__carousel">
+          <div class="carousel__card">
+            <h3>Chennai(Madras), India</h3>
+            <img src="./assets/carousel-5_one.jpg" />
+          </div>
+          <div class="carousel__card">
+            <h3>Ooty (Udhagamandalam), India</h3>
+            <img src="./assets/carousel-5_two.jpg" />
+          </div>
+          <div class="carousel__card">
+            <h3>Coimbatore, India</h3>
+            <img src="./assets/carousel-5_three.jpg" />
+          </div>
+          <div class="carousel__card">
+            <h3>Kanyakumari, India</h3>
+            <img src="./assets/carousel-5_four.jpg" />
+          </div>
+          <div class="carousel__card">
+            <h3>Varkala Town, India</h3>
+            <img src="./assets/carousel-5_five.jpg" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+
+    <footer class="footer">
+      <div class="footer__s1">
+        <p>+ About Tripadvisor</p>
+        <p>+ Explore</p>
+        <p>+ Do Business with Us</p>
+        <p>+ Get the App</p>
+        <p>+ Tripadvisor Sites</p>
+      </div>
+      <div class="footer__s1__large">
+        <div class="footer__section">
+          <h4>About Tripadvisor</h4>
+          <ul>
+            <li>About Us</li>
+            <li>Press</li>
+            <li>Resources and Policies</li>
+            <li>Careers</li>
+            <li>Trust & Safety</li>
+            <li>Contact us</li>
+            <li>Accessibility Statement</li>
+            <li>Tripadvisor Technology Blog</li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h4>Explore</h4>
+          <ul>
+            <li>Write a review</li>
+            <li>Add a Place</li>
+            <li>Join</li>
+            <li>Travellers' Choice</li>
+            <li>Help Centre</li>
+            <li>Travel Stories</li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h4>Do Business With Us</h4>
+          <ul>
+            <li>Owners & DMO/CVB</li>
+            <li>Business Advantage</li>
+            <li>Sponsored Placements</li>
+            <li>Access our Content API</li>
+          </ul>
+        </div>
+
+        <div class="footer__section">
+          <h4>Get The App</h4>
+          <ul>
+            <li>iPhone App</li>
+            <li>Android App</li>
+          </ul>
+
+          <h4>Tripadvisor Sites</h4>
+          <ul>
+            <li>Book tours and attraction tickets on Viator</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__options">
+        <select name="" id="">
+          <option value="">₹INR</option>
+        </select>
+        <select name="" id="">
+          <option value="">India</option>
+        </select>
+      </div>
+      <div class="footer__social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-x-twitter"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+
+      <div class="footer__s2">
+        <div style="display: flex; gap: 10px; align-items: center">
+          <img src="./assets/logo_2.svg" width="35px" />
+          <div class="footer__s2__links">
+            <div>
+              <p>&copy; 2025 Tripadvisor LLC All rights reserved.</p>
+            </div>
+            <div class="footer__s2__links-group">
+              <a href="">Terms of Use</a>
+              <a href="">Privacy and Cookies Statement</a>
+              <a href="">Cookie consent</a>
+              <a href="">Site Map</a>
+              <a href="">How the site works</a>
+              <a href="">Contact us</a>
+            </div>
+          </div>
+        </div>
+        <p>
+          This is the version of our website addressed to speakers of English in
+          India. If you are a resident of another country or region, please
+          select the appropriate version of Tripadvisor for your country or
+          region in the drop-down menu.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
